@@ -1,8 +1,51 @@
-body{background-image:url("fondo.jpg");font-size:16px;color:#c4c4c4}
+@font-face{font-family:'sfotipy';src:url("../fonts/sfotipy.eot?kt9bol");src:url("../fonts/sfotipy.eot?#iefixkt9bol") format('embedded-opentype'),url("../fonts/sfotipy.woff?kt9bol") format('woff'),url("../fonts/sfotipy.ttf?kt9bol") format('truetype'),url("../fonts/sfotipy.svg?kt9bol#sfotipy") format('svg');font-weight:normal;font-style:normal}
+[class^="icon-"],[class*=" icon-"]{font-family:'sfotipy';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-mail:before{content:"\e60f"}
+.icon-sfotipy:before{content:"\e60d"}
+.icon-menu:before{content:"\e60e"}
+.icon-stop:before{content:"\e60c"}
+.icon-search:before{content:"\e600"}
+.icon-lock:before{content:"\e601"}
+.icon-user:before{content:"\e602"}
+.icon-share:before{content:"\e603"}
+.icon-random:before{content:"\e604"}
+.icon-love:before{content:"\e605"}
+.icon-add:before{content:"\e606"}
+.icon-mute:before{content:"\e607"}
+.icon-vol:before{content:"\e608"}
+.icon-play:before{content:"\e609"}
+.icon-next:before{content:"\e60a"}
+.icon-prev:before{content:"\e60b"}
+.icon-facebook:before{content:"\e610"}
+.icon-twitter:before{content:"\e611"}
+a{text-decoration:none}
+body{background-image:url("fondo.jpg");font-size:16px;color:#c4c4c4;margin:0;font-family:'Varela Round',sans-serif}
+figure{margin:0}
+.right{float:right}
+.left{float:left}
+.margin{margin:0}
+.inline-block{display:inline-block}
 .eslogan{font-size:2.5em;color:#fff}
-.login{background:rgba(83,192,187,0.7);height:250px;border-radius:6px;}
+.login{background:rgba(83,192,187,0.7);height:250px;border-radius:6px;margin:0 .4em;}
 .login .wraper-login{margin:1em;text-align:center;padding-top:1em;}
 .login .wraper-login .title-login{text-align:center;display:block;font-size:1.5em;color:#fff;margin-bottom:1em}
-.login .wraper-login .input-user{padding:.5em;border-radius:4px;border:1px solid #fff;margin-left:26px}
-.login .wraper-login .input-pass{padding:.5em;border-radius:4px;border:1px solid #fff;margin:.5em}
+.login .wraper-login .input-user{padding:.5em;border-radius:4px;border:1px solid #fff;margin-left:27px}
+.login .wraper-login .input-pass{padding:.5em;border-radius:4px;border:1px solid #fff;margin:.6em .5em}
 .login .wraper-login .iniciar{background:#95f88f;padding:.8em 6em;border:1px solid transparent;margin:.5em auto}
+.wraper-social-login{margin:1em .5em;}
+.wraper-social-login .facebook{background:#3b5998;color:#fff;padding:.8em 1em;width:130px;margin:.5em auto;}
+.wraper-social-login .facebook .icon-facebook{border-right:1px solid #fff;padding:.4em}
+.wraper-social-login .facebook a{padding-left:.4em;color:#fff}
+.wraper-social-login .twitter{background:#30d8f0;color:#fff;padding:.8em 1em;width:130px;margin:.5em auto;}
+.wraper-social-login .twitter .icon-twitter{border-right:1px solid #fff;padding:.4em}
+.wraper-social-login .twitter a{padding-left:.4em;color:#fff}
+.footer{margin:0;background:#201d1d;overflow:hidden;text-align:center;width:100%;height:auto;}
+.footer .header-footer{color:#fff;text-align:center}
+.footer .developers{display:inline-block;width:250px;}
+.footer .developers .avatar{float:left;vertical-align:bottom;margin:.5em;}
+.footer .developers .avatar img{border-radius:50%;width:70px;height:70px}
+.footer .developers .contact{color:#fff;padding:.5em}
+@media (min-width:700px){body{overflow:hidden;}
+body .eslogan{margin:1em;width:70%}
+body .login{width:400px;float:right;margin-bottom:6em;margin-right:2em;height:300px}
+}
