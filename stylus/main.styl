@@ -7,11 +7,13 @@ verde_pistache =#95F88F
 azul_facebook = #3B5998
 azul_twitter = #30D8F0
 negro = #201D1D
+gris_medio = #424242
+
 a
 	text-decoration none
 
 body
-	background-image url("fondo.jpg");
+	
 	font-size 16px
 	color color_letra
 	margin 0
@@ -26,7 +28,9 @@ figure
 .margin
 	margin 0	
 .inline-block
-	display inline-block	
+	display inline-block
+.gris
+	color color_letra		
 
 .eslogan
 	font-size 2.5em
@@ -116,6 +120,68 @@ figure
 		.contact
 			color white
 			padding 0.5em 
+// Estilos para las demas paginas
+.header
+	overflow hidden
+	background white
+	font-size 1em
+	border-bottom 2px solid color_letra
+	box-shadow 0px 2px 10px black
+	z-index 2
+	.icon-menu
+		font-size 2em
+		padding 0.5em
+	.title
+		color black
+		text-align center
+		margin 0.5em
+	.form-search
+		background azul_twitter
+		padding-bottom 0.5em
+		text-align center
+		overflow hidden
+
+		#txtSearch
+			margin-top 0.5em
+			padding 0.5em
+			border-radius 4px
+			border 1px solid color_letra
+			width 95%
+			padding-left 0.3em
+			
+		.btnSearch
+			background transparent
+			border 1px solid transparent	
+			border-right 1px solid white
+			padding 0.4em 0
+			padding-right 1em
+		.btnCategory
+			background transparent
+			border 1px solid transparent
+.love-book
+	.book
+		overflow hidden
+		border-bottom 1px solid color_letra
+		.presentation
+			float left
+			margin 0.4em
+			img
+				width 120px
+				height auto
+		.book-title
+			color gris_medio
+		.read
+			padding 0.5em 1.5em
+			float right
+			margin-right 1em
+			background verde_pistache
+			color gris_medio	
+			margin-bottom 0.5em
+
+
+					
+			
+
 @media (min-width:700px)
 	body
 		overflow hidden
